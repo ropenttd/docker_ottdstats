@@ -12,4 +12,4 @@ RUN hg clone http://hg.openttdcoop.org/ottdstats /app \
 
 WORKDIR /app
 
-CMD ["python", "/app/server.py"]
+ENTRYPOINT ["python", "/app/server.py"]
